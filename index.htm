@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja strona</title>
+    <style>
+        body {
+            background-color: #FFEBD8;
+        }
+
+        /* Centrowanie tabeli i fb-page */
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Stylizacja tabeli */
+        table {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- JDK Facebooka (facebook odrzuca połączenia iFrame) -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v18.0" nonce="qoaC3zVu"></script>
+
+    <!-- o mnie -->
+    <h1 align="center" style="font-family: 'Times New Roman', Times, serif;"><i>Krzysztof Konopka</i></h1>
+    <h2 align="center" style="font-family: 'Times New Roman', Times, serif;"><i>Chodzę do 8 klasy w 
+    <a href="https://www.psp-5.opole.pl">PSP5 w Opolu</a><br>
+    Interesuje się informatyką, graniem w gry i muzyką.
+    </i></h2>
+    <h2 align="center" style="font-family: 'Times New Roman', Times, serif;"><u><i>Lubię koty i kwiaty.</i></u></h2>
+    
+    <!-- Centrowanie tabeli i fb-page -->
+    <div class="centered">
+
+        <!-- Tabela -->
+        <table border="1"  height="500px" width="100%">
+            <tr align="center">
+                <td><a href="https://radio.opole.pl/public/info/2022/2022-01-18_164252567210.jpeg"><img src="2022-01-18_164252567210.jpeg" width="70%"></a></td>
+                <td><a href="http://www.naukaplywania.opole.pl/data/files/1285431516_img_4353.jpg"><img src="1285431516_img_4353(1).jpg" width="70%"></td>
+                <td><a href="https://www.google.com/maps/place/Publiczna+Szko%C5%82a+Podstawowa+nr+5+z+Oddzia%C5%82ami+Integracyjnymi+im+Karola+Musio%C5%82a/@50.6805702,17.9503543,292m/data=!3m1!1e3!4m6!3m5!1s0x471053bc
+                    5eead91d:0x851df7680a0bf2a9!8m2!3d50.6805132!4d17.9506086!16s%2Fg%2F1tkb3vdh?hl=pl&entry=ttu">
+                    <img src="Zrzut ekranu 2023-12-20 190815.png" width=70%"></td>
+            </tr>
+            <tr align="center">
+                <td><a href="https://maps.app.goo.gl/FhEgJ9UtbEYYF6Hu5"></a><img src="Zrzut ekranu 2023-12-20 191416.png" width=70%"></td> 
+                <td><a href="https://psp-5.opole.pl/wp-content/uploads/2020/08/sale-lekcyjne-5-1-1024x683.jpg"><img src="sale-lekcyjne-5-1-1024x683.jpg" width=70%"></td>
+                <td><a href="https://akademiasportowegorozwoju.pl/wp-content/uploads/2017/10/DSCN4347-1024x1024.jpg"><img src="DSCN4347-1024x1024.jpg" width=70%"></td>
+            </tr>
+        </table>
+
+        <!-- Facebook -->
+        <div class="fb-page" data-href="https://www.facebook.com/psp5opole/?locale=pl_PL" 
+            data-tabs="timeline" data-width="250" data-height="500" data-small-header="false" 
+            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/psp5opole/?locale=pl_PL" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/psp5opole/?locale=pl_PL">
+                    Publiczna Szkoła Podstawowa nr 5 w Opolu
+                </a>
+            </blockquote>
+        </div>
+
+        <!-- PSP5 Opole -->
+        <iframe src="http://www.psp-5.opole.pl/" width="500" height="500" frameborder="0"></iframe>
+
+    </div>
+</body>
+</html>
